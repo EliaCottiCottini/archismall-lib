@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassiDocumentali.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/Anagrafica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/ClasseDocumentale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/ddt/DDTAttivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/ddt/DDTPassivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaAttiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaElettronicaAttiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaElettronicaPassiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaPassiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/notifiche/FatturaElettronicaAttivaNotifica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/notifiche/NotificaSdi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriDocumenti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriRegistri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bilanci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bollette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CMR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CertificazioneUnica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/DocumentiBancari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/GiornaleSchedeMagazzino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LUL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroCespiti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroGiornale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroInventari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroMastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Manuali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello730.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello770.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloDichiarativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloF23F24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloVersamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/OrdiniAFornitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/POD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroFattureAcquisto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroFattureVendita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroRiepilogativoIva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/SchedeCliniche.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2d4ruwMl76SuqV4pmzfL3DgRBQ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/eliacc/smeup/ArchismallLib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smeup.doc" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-bfa3237e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="" />
+      <created>1709278419670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709278419670</updated>
+      <workItem from="1709278420682" duration="3941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
