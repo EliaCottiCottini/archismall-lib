@@ -1,10 +1,11 @@
-package com.smeup.doc;
+package com.smeup.entities;
 
 import java.util.Date;
 
 public class ClasseDocumentale {
     protected String username;
-    protected Anagrafica produttore;
+    protected Anagrafica produttore;//TODO questa potrebbe essere contatto
+    private Contatto contatto;// mi serve per lo schema
     protected Date data;
     protected String TDocFileId;
     protected String TDocPdVId;

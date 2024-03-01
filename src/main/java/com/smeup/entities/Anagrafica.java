@@ -1,4 +1,4 @@
-package com.smeup.doc;
+package com.smeup.entities;
 
 public class Anagrafica {
     private String nome;

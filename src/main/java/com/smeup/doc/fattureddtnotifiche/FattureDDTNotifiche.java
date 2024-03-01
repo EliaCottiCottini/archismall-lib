@@ -1,7 +1,7 @@
 package com.smeup.doc.fattureddtnotifiche;
 
-import com.smeup.doc.Anagrafica;
-import com.smeup.doc.ClasseDocumentale;
+import com.smeup.entities.Anagrafica;
+import com.smeup.entities.ClasseDocumentale;
 
 import java.util.Date;
 

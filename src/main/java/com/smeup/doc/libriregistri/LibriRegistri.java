@@ -1,6 +1,6 @@
 package com.smeup.doc.libriregistri;
 
-import com.smeup.doc.ClasseDocumentale;
+import com.smeup.entities.ClasseDocumentale;
 
 import java.util.Date;
 

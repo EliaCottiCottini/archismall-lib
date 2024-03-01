@@ -4,55 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassiDocumentali.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/Anagrafica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/ClasseDocumentale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/ddt/DDTAttivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/ddt/DDTPassivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaAttiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaElettronicaAttiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaElettronicaPassiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/fatture/FatturaPassiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/notifiche/FatturaElettronicaAttivaNotifica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/notifiche/NotificaSdi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriDocumenti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriRegistri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bilanci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bollette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CMR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CertificazioneUnica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/DocumentiBancari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/GiornaleSchedeMagazzino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LUL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroCespiti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroGiornale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroInventari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibroMastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Manuali.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello730.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello770.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloDichiarativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloF23F24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloVersamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/OrdiniAFornitore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/POD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroFattureAcquisto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroFattureVendita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/RegistroRiepilogativoIva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/SchedeCliniche.java" afterDir="false" />
+    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="added classes and diagram">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Azienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Contatto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Fattura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Indirizzo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Licenza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Notifica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/Anagrafica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/Anagrafica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/ClasseDocumentale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/ClasseDocumentale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriDocumenti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/AltriDocumenti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bilanci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bilanci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bollette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Bollette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CMR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CertificazioneUnica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/CertificazioneUnica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/DocumentiBancari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/DocumentiBancari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LUL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LUL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello730.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/Modello730.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloF23F24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/ModelloF23F24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/OrdiniAFornitore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/OrdiniAFornitore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/POD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/POD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/SchedeCliniche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/SchedeCliniche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +46,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -83,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/eliacc/smeup/ArchismallLib",
     "node.js.detected.package.eslint": "true",
@@ -97,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smeup.entities" />
       <recent name="com.smeup.doc" />
     </key>
   </component>
@@ -115,11 +95,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709278419670</updated>
-      <workItem from="1709278420682" duration="3941000" />
+      <workItem from="1709278420682" duration="10410000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1709282529270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709282529270</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added classes and diagram">
+      <option name="closed" value="true" />
+      <created>1709282555727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709282555727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="added classes and diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added classes and diagram" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

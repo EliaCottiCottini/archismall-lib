@@ -1,6 +1,6 @@
 package com.smeup.doc.libriregistri;
 
-import com.smeup.doc.Anagrafica;
+import com.smeup.entities.Anagrafica;
 
 public class Bollette extends LibriRegistri {
     private Anagrafica fornitore;
