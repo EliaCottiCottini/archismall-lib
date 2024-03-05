@@ -1,4 +1,4 @@
-package com.smeup.entities;
+package com.smeup.entities.nuovo;
 
 public class Storage {
     // per tenere traccia dello spazio usato

@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "id": "http://jsonschema.net/_id",
+      "type": "string"
+    },
+    "accountData": {
+      "id": "http://jsonschema.net/accountData",
+      "type": "object",
+      "properties": {
+        "userType": {
+          "id": "http://jsonschema.net/accountData/userType",
+          "type": "integer"
+        },
+        "userTypeName": {
+          "id": "http://jsonschema.net/accountData/userTypeName",
+          "type": "string"
+        },
+        "username": {
+          "id": "http://jsonschema.net/accountData/username",
+          "type": "string"
+        },
+        "email": {
+          "id": "http://jsonschema.net/accountData/email",
+          "type": "string"
+        },
+        "password": {
+          "id": "http://jsonschema.net/accountData/password",
+          "type": "string"
+        },
+        "securityQuestion": {
+          "id": "http://jsonschema.net/accountData/securityQuestion",
+          "type": "string"
+        },
+        "securityAnswer": {
+          "id": "http://jsonschema.net/accountData/securityAnswer",
+          "type": "string"
+        },
+        "serverInstance": {
+          "id": "http://jsonschema.net/accountData/serverInstance",
+          "type": "string"
+        },
+        "PEC": {
+          "id": "http://jsonschema.net/accountData/PEC",
+          "type": "string"
+        }
+      },
+      "required": [
+        "userType",
+        "userTypeName",
+        "username",
+        "email",
+        "password",
+        "securityQuestion",
+        "securityAnswer",
+        "serverInstance",
+        "PEC"
+      ]
+    },
+    "organizationData": {
+      "id": "http://jsonschema.net/organizationData",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http://jsonschema.net/organizationData/name",
+          "type": "string"
+        },
+        "address": {
+          "id": "http://jsonschema.net/organizationData/address",
+          "type": "string"
+        },
+        "CAP": {
+          "id": "http://jsonschema.net/organizationData/CAP",
+          "type": "string"
+        },
+        "province": {
+          "id": "http://jsonschema.net/organizationData/province",
+          "type": "string"
+        },
+        "city": {
+          "id": "http://jsonschema.net/organizationData/city",
+          "type": "string"
+        },
+        "country": {
+          "id": "http://jsonschema.net/organizationData/country",
+          "type": "string"
+        },
+        "phoneNumber": {
+          "id": "http://jsonschema.net/organizationData/phoneNumber",
+          "type": "string"
+        },
+        "mobilePhoneNumber": {
+          "id": "http://jsonschema.net/organizationData/mobilePhoneNumber",
+          "type": "string"
+        },
+        "fax": {
+          "id": "http://jsonschema.net/organizationData/fax",
+          "type": "string"
+        },
+        "PIVA": {
+          "id": "http://jsonschema.net/organizationData/PIVA",
+          "type": "string"
+        },
+        "fiscalCode": {
+          "id": "http://jsonschema.net/organizationData/fiscalCode",
+          "type": "string"
+        },
+        "periodStart": {
+          "id": "http://jsonschema.net/organizationData/periodStart",
+          "type": "string"
+        },
+        "periodEnd": {
+          "id": "http://jsonschema.net/organizationData/periodEnd",
+          "type": "string"
+        },
+        "contactPerson": {
+          "id": "http://jsonschema.net/organizationData/contactPerson",
+          "type": "object",
+          "properties": {
+            "firstname": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/firstname",
+              "type": "string"
+            },
+            "surname": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/surname",
+              "type": "string"
+            },
+            "birthDate": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/birthDate",
+              "type": "string"
+            },
+            "birthInItaly": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/birthInItaly",
+              "type": "string"
+            },
+            "birthCountry": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/birthCountry",
+              "type": "string"
+            },
+            "birthProvince": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/birthProvince",
+              "type": "string"
+            },
+            "birthCity": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/birthCity",
+              "type": "string"
+            },
+            "identityCardFile": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/identityCardFile",
+              "type": "string"
+            },
+            "identityCardFileId": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/identityCardFileId",
+              "type": "string"
+            },
+            "fiscalCodeFile": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/fiscalCodeFile",
+              "type": "string"
+            },
+            "fiscalCodeFileId": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/fiscalCodeFileId",
+              "type": "string"
+            },
+            "sex": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/sex",
+              "type": "string"
+            },
+            "fiscalCode": {
+              "id": "http://jsonschema.net/organizationData/contactPerson/fiscalCode",
+              "type": "string"
+            }
+          }
+        },
+        "authorizePersonalDataTreatment": {
+          "id": "http://jsonschema.net/organizationData/authorizePersonalDataTreatment",
+          "type": "integer"
+        },
+        "inscrizioneREAIncluded": {
+          "id": "http://jsonschema.net/organizationData/inscrizioneREAIncluded",
+          "type": "boolean"
+        },
+        "socioUnico": {
+          "id": "http://jsonschema.net/organizationData/socioUnico",
+          "type": "string"
+        },
+        "numeroCivico": {
+          "id": "http://jsonschema.net/organizationData/numeroCivico",
+          "type": "string"
+        },
+        "codicePaese": {
+          "id": "http://jsonschema.net/organizationData/codicePaese",
+          "type": "string"
+        },
+        "stabileOrganizzazioneAddressIsDifferent": {
+          "id": "http://jsonschema.net/organizationData/stabileOrganizzazioneAddressIsDifferent",
+          "type": "boolean"
+        },
+        "stabileOrganizzazione": {
+          "id": "http://jsonschema.net/organizationData/stabileOrganizzazione",
+          "type": "object",
+          "properties": {
+            "address": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/address",
+              "type": "string"
+            },
+            "numeroCivico": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/numeroCivico",
+              "type": "string"
+            },
+            "province": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/province",
+              "type": "string"
+            },
+            "CAP": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/CAP",
+              "type": "string"
+            },
+            "city": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/city",
+              "type": "string"
+            },
+            "codicePaese": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/codicePaese",
+              "type": "string"
+            },
+            "country": {
+              "id": "http://jsonschema.net/organizationData/stabileOrganizzazione/country",
+              "type": "string"
+            }
+          }
+        },
+        "regimeFiscale": {
+          "id": "http://jsonschema.net/organizationData/regimeFiscale",
+          "type": "string"
+        },
+        "rappresentanteFiscale": {
+          "id": "http://jsonschema.net/organizationData/rappresentanteFiscale",
+          "type": "object",
+          "properties": {
+            "codicePaese": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/codicePaese",
+              "type": "string"
+            },
+            "PIVA": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/PIVA",
+              "type": "string"
+            },
+            "fiscalCode": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/fiscalCode",
+              "type": "string"
+            },
+            "denominazione": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/denominazione",
+              "type": "string"
+            },
+            "nome": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/nome",
+              "type": "string"
+            },
+            "cognome": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/cognome",
+              "type": "string"
+            },
+            "titolo": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/titolo",
+              "type": "string"
+            },
+            "codEORI": {
+              "id": "http://jsonschema.net/organizationData/rappresentanteFiscale/codEORI",
+              "type": "string"
+            }
+          }
+        },
+        "titolo": {
+          "id": "http://jsonschema.net/organizationData/titolo",
+          "type": "string"
+        },
+        "alboProfessionaleIncluded": {
+          "id": "http://jsonschema.net/organizationData/alboProfessionaleIncluded",
+          "type": "boolean"
+        },
+        "rappresentanteFiscaleIncluded": {
+          "id": "http://jsonschema.net/organizationData/rappresentanteFiscaleIncluded",
+          "type": "boolean"
+        },
+        "periodiDiEsercizioAnnoSolare": {
+          "id": "http://jsonschema.net/organizationData/periodiDiEsercizioAnnoSolare",
+          "type": "boolean"
+        },
+        "alboProfessionale": {
+          "id": "http://jsonschema.net/organizationData/alboProfessionale",
+          "type": "object",
+          "properties": {
+            "alboProfessionale": {
+              "id": "http://jsonschema.net/organizationData/alboProfessionale/alboProfessionale",
+              "type": "string"
+            },
+            "provinciaAlbo": {
+              "id": "http://jsonschema.net/organizationData/alboProfessionale/provinciaAlbo",
+              "type": "string"
+            },
+            "numeroIscrizioneAlbo": {
+              "id": "http://jsonschema.net/organizationData/alboProfessionale/numeroIscrizioneAlbo",
+              "type": "string"
+            },
+            "dataIscrizioneAlbo": {
+              "id": "http://jsonschema.net/organizationData/alboProfessionale/dataIscrizioneAlbo",
+              "type": "string"
+            }
+          }
+        },
+        "codEORI": {
+          "id": "http://jsonschema.net/organizationData/codEORI",
+          "type": "string"
+        },
+        "inscrizioneREA": {
+          "id": "http://jsonschema.net/organizationData/inscrizioneREA",
+          "type": "object",
+          "properties": {
+            "ufficio": {
+              "id": "http://jsonschema.net/organizationData/inscrizioneREA/ufficio",
+              "type": "string"
+            },
+            "numeroREA": {
+              "id": "http://jsonschema.net/organizationData/inscrizioneREA/numeroREA",
+              "type": "string"
+            },
+            "statoLiquidazione": {
+              "id": "http://jsonschema.net/organizationData/inscrizioneREA/statoLiquidazione",
+              "type": "string"
+            },
+            "socioUnico": {
+              "id": "http://jsonschema.net/organizationData/inscrizioneREA/socioUnico",
+              "type": "string"
+            },
+            "capitaleSociale": {
+              "id": "http://jsonschema.net/organizationData/inscrizioneREA/capitaleSociale",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "subscription": {
+      "id": "http://jsonschema.net/subscription",
+      "type": "object",
+      "properties": {
+        "subscriptionType": {
+          "id": "http://jsonschema.net/subscription/subscriptionType",
+          "type": "string"
+        },
+        "autoRenew": {
+          "id": "http://jsonschema.net/subscription/autoRenew",
+          "type": "string"
+        },
+        "activationCode": {
+          "id": "http://jsonschema.net/subscription/activationCode",
+          "type": "string"
+        },
+        "paymentInfoCard": {
+          "id": "http://jsonschema.net/subscription/paymentInfoCard",
+          "type": "object",
+          "properties": {
+            "cardType": {
+              "id": "http://jsonschema.net/subscription/paymentInfoCard/cardType",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "activated": {
+      "id": "http://jsonschema.net/activated",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "accountData",
+    "organizationData",
+    "subscription",
+    "activated"
+  ]
+}

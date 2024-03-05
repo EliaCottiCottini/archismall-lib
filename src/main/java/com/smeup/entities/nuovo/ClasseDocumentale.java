@@ -1,8 +1,8 @@
-package com.smeup.entities;
+package com.smeup.entities.nuovo;
 
 import java.util.Date;
 
-public class ClasseDocumentale {
+public class ClasseDocumentale {//TODO le classi collegate qua DEVONO essere parte dello stesso oggetto (stile mongodb)
     protected String username;
     protected Anagrafica produttore;//TODO questa potrebbe essere contatto
     private Contatto contatto;// mi serve per lo schema

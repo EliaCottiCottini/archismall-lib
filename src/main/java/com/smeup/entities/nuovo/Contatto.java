@@ -1,8 +1,8 @@
-package com.smeup.entities;
+package com.smeup.entities.nuovo;
 
 public class Contatto {
-//    public Azienda azienda;
     //potrebbero essere di più
     public String email;
+    public String telefono;
     public Anagrafica anagrafica;
 }
