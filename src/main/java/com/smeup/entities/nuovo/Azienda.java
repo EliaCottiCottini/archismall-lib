@@ -2,7 +2,7 @@ package com.smeup.entities.nuovo;
 
 import java.util.List;
 
-public class Azienda {//TODO tutte le classi collegate saranno collegamenti tramite id con le entities (stile mysql)
+public class Azienda {//TODO tutte le classi collegate saranno collegamenti tramite id con le entities, oppure come embedded values (stile mysql)
     public Anagrafica anagrafica;
     public List<Contatto> contatti;
     public Anagrafica rappresentanteFiscale;//TODO deve contenere dati riguardo la nascita?
