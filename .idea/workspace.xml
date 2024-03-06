@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="removed duplicated fields">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/TipoRegistrazione.java" afterDir="false" />
+    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="struttura utente definita&#10;WIP IscrizioneREA">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassiDocumentali.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemaOggetti.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/fattureddtnotifiche/FattureDDTNotifiche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/doc/libriregistri/LibriRegistri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Abbonamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Abbonamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Anagrafica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Anagrafica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Azienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Azienda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/ClasseDocumentale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/ClasseDocumentale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Contatto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Contatto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Licenza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Licenza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Consumi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/AccountData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/ContactPerson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/InscrizioneREA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/IscrizioneREA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/LicenseProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/Limits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/NotificationOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/NotificationOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/OrganizationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/OrganizationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/Subscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/user/UserSchema.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -64,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/eliacc/smeup/ArchismallLib",
+    "last_opened_file_path": "/home/eliacc/smeup",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,7 +84,7 @@
       <workItem from="1709278420682" duration="16662000" />
       <workItem from="1709624405068" duration="7207000" />
       <workItem from="1709667681571" duration="330000" />
-      <workItem from="1709710094319" duration="14523000" />
+      <workItem from="1709710094319" duration="16023000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -154,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709717276200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="struttura utente definita&#10;WIP IscrizioneREA">
+      <option name="closed" value="true" />
+      <created>1709735666592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709735666592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +166,8 @@
     <MESSAGE value="WIP" />
     <MESSAGE value="added csv with used fields list" />
     <MESSAGE value="removed duplicated fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed duplicated fields" />
+    <MESSAGE value="struttura utente definita&#10;WIP IscrizioneREA" />
+    <option name="LAST_COMMIT_MESSAGE" value="struttura utente definita&#10;WIP IscrizioneREA" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
