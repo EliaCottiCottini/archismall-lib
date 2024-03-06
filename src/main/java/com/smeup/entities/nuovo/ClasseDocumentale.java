@@ -2,9 +2,11 @@ package com.smeup.entities.nuovo;
 
 import java.util.Date;
 
-public class ClasseDocumentale {//TODO le classi collegate qua DEVONO essere parte dello stesso oggetto (stile mongodb)
+//TODO le classi collegate qua DEVONO essere parte dello stesso oggetto (stile mongodb)
+public abstract class ClasseDocumentale {
+    //TODO trovare un modo di creare una history legata al documento (per conservazione)
     protected String username;
-    protected Anagrafica produttore;//TODO questa potrebbe essere contatto
+    protected Anagrafica produttore;//TODO potrebbe essere Contatto
     private Contatto contatto;// mi serve per lo schema
     protected Date data;
     protected String TDocFileId;

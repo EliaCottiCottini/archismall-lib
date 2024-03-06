@@ -7,11 +7,7 @@ import java.util.Map;
 
 public class User {
     private String Id;
-    private AccountData accountData;
     private OrganizationData organizationData;
-    private Subscription subscription;
-    private Limits limits;//TODO decidere se lasciare o collegare a licenza
-    private boolean useDigitalSign;//TODO decidere se lasciare
     private Boolean isCreatedInTDoc = false;
     private Boolean notificationsDisabled = false;
     private Map<String, Boolean> classiDocumentali = new HashMap<String, Boolean>() {{

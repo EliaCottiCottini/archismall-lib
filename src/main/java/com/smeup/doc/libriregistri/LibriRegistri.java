@@ -4,7 +4,7 @@ import com.smeup.entities.nuovo.ClasseDocumentale;
 
 import java.util.Date;
 
-public class LibriRegistri extends ClasseDocumentale {
+public abstract class LibriRegistri extends ClasseDocumentale {
     protected Date dataDocumento;
     protected String oggettoDescrizione;
     protected int annoFiscaleDal;

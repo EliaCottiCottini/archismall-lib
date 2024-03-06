@@ -8,9 +8,7 @@ public class Anagrafica {
     private String codiceFiscale;
     private String codiceIpa;
     private String codiceUfficio;
-    private String codice;//opzionale, serve in alcune classi documentali
-    private String codEORI;//opzionale TODO vedere se metterlo qua o in Contatto
-    private String fileCartaIdentita;//opzionale TODO
-    private String fileCodiceFiscale;//opzionale TODO
-    private String fileVisura;//opzionale TODO
+    private String codice;//opzionale, serve in alcune classi documentali TODO se usiamo questo oggetto
+    private String fileCartaIdentita;//opzionale
+    private String fileCodiceFiscale;//opzionale
 }

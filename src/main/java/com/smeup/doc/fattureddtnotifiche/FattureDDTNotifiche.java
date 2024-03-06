@@ -5,7 +5,7 @@ import com.smeup.entities.nuovo.ClasseDocumentale;
 
 import java.util.Date;
 
-public class FattureDDTNotifiche extends ClasseDocumentale {
+public abstract class FattureDDTNotifiche extends ClasseDocumentale {
     protected Anagrafica fornitore;
     protected Anagrafica cliente;
     protected Date dataDocumento;
