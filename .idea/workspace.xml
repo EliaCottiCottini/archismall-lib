@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="WIP">
+    <list default="true" id="8446201d-cee7-47da-ab66-24195a68082f" name="Changes" comment="added csv with used fields list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Azienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smeup/entities/nuovo/Azienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.csv" beforeDir="false" afterPath="$PROJECT_DIR$/schema.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1709278420682" duration="16662000" />
       <workItem from="1709624405068" duration="7207000" />
       <workItem from="1709667681571" duration="330000" />
-      <workItem from="1709710094319" duration="1313000" />
+      <workItem from="1709710094319" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709630170909</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added csv with used fields list">
+      <option name="closed" value="true" />
+      <created>1709715905489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709715905489</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +144,8 @@
     <MESSAGE value="added classes and diagram" />
     <MESSAGE value="objects definition" />
     <MESSAGE value="WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
+    <MESSAGE value="added csv with used fields list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added csv with used fields list" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
